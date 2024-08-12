@@ -1,0 +1,15 @@
+fastapi
+python-multipart
+uvicorn~=0.28.0
+pydantic
+pydantic-settings
+python-dotenv
+torch
+torchvision
+opencv-python
+numpy
+onnx
+matplotlib
+arrow
+
+# pip install torch torchvision --index-url https://download.pytorch.org/whl/cu124
