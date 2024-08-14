@@ -18,3 +18,10 @@ Download this repo to /your_working_dir/segment-anything/api and install depende
 ```
 pip install -r api/requirements.txt
 ```
+## Note
+onnxruntime should be fixed to 1.15.1 according to this issue: 
+https://github.com/facebookresearch/segment-anything/issues/585
+```shell
+pip uninstall onnxruntime
+pip install onnxruntime==1.15.1
+```
